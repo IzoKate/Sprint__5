@@ -1,8 +1,8 @@
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 
-from tests.locators import Locators
-from tests.constants import Constants
+from locators import Locators
+from constants import Constants
 
 class TestStellarburgersLogout:
     def test_logout(self, login):

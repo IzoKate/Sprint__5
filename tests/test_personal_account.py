@@ -1,7 +1,7 @@
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 
-from tests.locators import Locators
+from locators import Locators
 
 
 class TestStellarburgersPersonalAccount:

@@ -80,7 +80,7 @@ class Locators:
     SECTION_BURGER_CONSTRUCTOR = (By.XPATH,".//main[1]/section[2]")
 
     # Кликабельный логотип Stellar Burgers
-    LOGO = (By.XPATH, ".//header[1]/nav[1]/div[1]/a[1]/*[name()='svg'][1]")
+    LOGO = (By.XPATH, ".//div/a[@href='/']/*[name()='svg']")
 
     #Ошибка регистрации, если пароль навалидный
     ERR_PASSWORD = (By.XPATH,".//p[@class='input__error text_type_main-default']")

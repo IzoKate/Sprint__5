@@ -1,8 +1,8 @@
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 
-from tests.locators import Locators
-from tests.constants import Constants
+from locators import Locators
+from constants import Constants
 
 class TestStellarburgersLogin:
     #Вход через кнопку «Личный кабинет»

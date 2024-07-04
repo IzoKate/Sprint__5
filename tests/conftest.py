@@ -1,11 +1,9 @@
 import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 
 from constants import Constants
-from locators import Locators
+from locators import  Locators
 
 
 @pytest.fixture
